@@ -3,11 +3,11 @@ body{
 }
 #div-input-id{
     top: 10px;
-    left: 490px;
+    left: 23vw;
 
 }
 #input-id{
-    width: 500px
+    width: 30vw;
 }
 #input-button{
     margin-left: 30px;
@@ -26,6 +26,8 @@ body{
 #button-buscar{
     background-color: aqua;
     border-color: aqua;
+    width: 8vw;
+    height: 6vh;
 }
 #agregar-carrito{
     background-color: rgb(0, 152, 253);
@@ -41,6 +43,8 @@ body{
 #button-listar{
     background-color: brown;
     border-color: brown;
+    width: 8vw;
+    height: 6vh;
 }
 .button{
     margin-right: 10px;
@@ -199,10 +203,11 @@ display: inline-block;
 .cuadro-modal{
     width:40vw;
     height: 40vh;
-    position: absolute;
+    position: fixed;
     margin-left:30vw ;
-    margin-top: -30vh;
+    margin-top: -60vh;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 .titulo-modal{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -223,4 +228,14 @@ display: inline-block;
     background-color: rgb(213, 24, 24);
     border-color: rgb(213, 24, 24);
     margin-left: 17vw;
+}
+#ver-carrito{
+    background-color: rgb(1, 166, 255);
+    border-color: rgb(1, 166, 255);
+    width: 8vw;
+    height: 6vh;
+}
+#text-l{
+    font-size: 0.8vw;
+    margin-top: 10%;
 }

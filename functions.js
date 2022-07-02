@@ -182,10 +182,11 @@ function sumCantidad(event){
     const itemContenedor = suma.closest(".contenedor-item")
     const id = itemContenedor.querySelector("#card-id").textContent;
     carrito.forEach(item=>{
-        if(item.id === id)
+        if(item.id === id){
         suma.value < 1 ? (suma.value = 1) : suma.value;
         item.cantidad = suma.value
         totalCarrito()
+    }    
     })
 }
 function addLocalStorage(){
