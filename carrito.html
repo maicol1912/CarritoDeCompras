@@ -55,9 +55,14 @@
       <div class="precio-cuenta">
         <h3 class="precio-final" id="carritoTotal">0$</h3>
       </div>
-      <div class="comprar-cuenta"><button class="comprar-button">Comprar</button></div>
+      <div class="comprar-cuenta"><button class="comprar-button" onclick="abrirModal()">Comprar</button></div>
     </div>
-  
+    <div class="cuadro-modal" style="display:none">
+      <h2 class="titulo-modal">sus productos llegaran pronto</h2>
+      <h5 class="subtitulo-modal">gracias por confiar en nosotros</h5>
+      <img  class="image-despedida" src="imagenes/gracias-por-tu-compra.jpg" alt="">
+      <button class="button-cerrar" onclick="cerrarModal()">Cerrar</button>
+  </div>
 
   <script src="functions.js"></script>
 </body>

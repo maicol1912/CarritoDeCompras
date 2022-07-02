@@ -206,3 +206,11 @@ function refrescarPagina(){
 function localStor(){
     localStorage.setItem('llenarTabla');
 }
+function abrirModal(){
+    const modalOculta = document.querySelector(".cuadro-modal")
+    modalOculta.style.display = 'block';
+}
+function cerrarModal(){
+    const modalOculta = document.querySelector(".cuadro-modal")
+    modalOculta.style.display = 'none';
+}

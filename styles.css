@@ -196,3 +196,31 @@ display: inline-block;
     border-color: rgb(63, 63, 243);
     background-color: rgb(63, 63, 243);
 }
+.cuadro-modal{
+    width:40vw;
+    height: 40vh;
+    position: absolute;
+    margin-left:30vw ;
+    margin-top: -30vh;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.titulo-modal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 110px;
+    margin-top:30px ;
+    color: brown;
+}
+.subtitulo-modal{
+    margin-left: 190px;
+    margin-top:30px ;
+}
+.image-despedida{
+    width: 20vw;
+    height: 20vh;
+    margin-left: 8.5vw;
+}
+.button-cerrar{
+    background-color: rgb(213, 24, 24);
+    border-color: rgb(213, 24, 24);
+    margin-left: 17vw;
+}
