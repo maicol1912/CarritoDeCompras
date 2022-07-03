@@ -1,5 +1,14 @@
 let carrito = []
 let body = document.querySelector(".contenedor-carrito")
+
+function guardarCookie() {
+    document.cookie = fetch(`https://fakestoreapi.com/products`)
+    .then(datos => datos.json())
+    .then(datosJson =>
+        llenarTabla(datosJson))
+    }
+guardarCookie()    
+
 function listarProductos() {
     fetch(`https://fakestoreapi.com/products`)
         .then(datos => datos.json())
@@ -204,9 +213,6 @@ function refrescarPagina(){
     location.reload()
 }
 
-function localStor(){
-    localStorage.setItem('llenarTabla');
-}
 function abrirModal(){
     const modalOculta = document.querySelector(".cuadro-modal")
     modalOculta.style.display = 'block';
